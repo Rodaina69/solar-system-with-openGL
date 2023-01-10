@@ -33,7 +33,7 @@ void timer(int x) {
         moveX=-4;
     }
 }
-void mouse(int key, int state, int x, int y){
+void mouse(int key, int state, int x, int y){ //By clicking right
     switch (key)
     {
         case GLUT_RIGHT_BUTTON:
@@ -62,7 +62,7 @@ void points(){
     glEnd ();
 }
 
-void sphere(){
+void sphere(){ //Main sphere
     glPushMatrix();
     glTranslatef(0,0,-12);
     glColor3f(0.5,0.9,0.11);
