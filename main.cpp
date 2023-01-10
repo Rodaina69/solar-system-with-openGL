@@ -17,7 +17,7 @@ GLint stacks =50;
 GLdouble radius=1, radius2=0.4,radius3=0.1;
 
 
-void timer(int x) {
+void timer(int x) {  Timer function in milliseconds
     glutPostRedisplay();
     glutTimerFunc(1000 / 60, timer, 0);
     rotate2 += 1;
