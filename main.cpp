@@ -134,7 +134,7 @@ void pyramid(){
     glRotatef(180,0.0,0.0,1.0);
     glScalef(0.1,0.1,0.1);
 
-    glBegin(GL_TRIANGLES) //built-in triangle
+    glBegin(GL_TRIANGLES) //built-in shape
 
     // New Triangle - Front
     glColor3f(1.0f,0.0f,0.0f);
