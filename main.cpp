@@ -33,7 +33,7 @@ void timer(int x) {
         moveX=-4;
     }
 }
-void mouse(int key, int state, int x, int y){ //By clicking right
+void mouse(int key, int state, int x, int y){ //By clicking right click project will display
     switch (key)
     {
         case GLUT_RIGHT_BUTTON:
@@ -134,7 +134,7 @@ void pyramid(){
     glRotatef(180,0.0,0.0,1.0);
     glScalef(0.1,0.1,0.1);
 
-    glBegin(GL_TRIANGLES);
+    glBegin(GL_TRIANGLES) //built-in triangle
 
     // New Triangle - Front
     glColor3f(1.0f,0.0f,0.0f);
