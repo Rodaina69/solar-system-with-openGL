@@ -307,7 +307,7 @@ int main (int argc, char**argv)
     glutDisplayFunc(display);
     glutMouseFunc(mouse);
     glutReshapeFunc(reshape);
-    sndPlaySound("PM_SFA2_2.wav",SND_ASYNC |SND_LOOP);
+    sndPlaySound("PM_SFA2_2.wav",SND_ASYNC |SND_LOOP); //enabling sound 
     init();
 
     glutMainLoop();
